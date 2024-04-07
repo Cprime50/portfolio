@@ -1,0 +1,99 @@
+baseURL = "https://charlesdpj.com/"
+# title = "charlesdpj"
+author = "charlesdpj"
+copyright = "Copyright © 2024, charlesdpj; all rights reserved."
+paginate = 4
+languageCode = "en"
+DefaultContentLanguage = "en"
+enableInlineShortcodes = true
+# prevent build failures when using Hugo's Instagram shortcode due to deprecated Instagram API.
+# See https://github.com/gohugoio/hugo/issues/7228#issuecomment-714490456
+ignoreErrors = ["error-remote-getjson"]
+
+# ------------------------------
+# theme = "hugo-paper"
+title = "Charlesdpj"
+
+[params]
+  color = 'wheat'
+
+  twitter = 'https://twitter.com/BunngeeeGum'
+  github = 'https://github.com/Cprime50'
+  linkedin = 'https://linkedin.com/in/charles-dpj'
+  medium = 'nanxiaobei'
+
+  avatar = 'https://avatars.githubusercontent.com/u/130233108?v=4'
+  name = 'charlesdpj'
+  bio = '''
+          Hi, my name is Charles.
+          I'm a Software Engineer with three years of experience in Backend development and lately DevOps.
+          I'm passionate about cloud technologies, Linux, open source, and Golang
+  '''
+# ------------------------------
+
+# needed to  render raw HTML (e.g. <sub>, <sup>, <kbd>, <mark>)
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+#  [markup.highlight]
+#    lineNos = true
+
+[menu]
+
+  [[menu.main]]
+    identifier = "resume"
+    name = "Resume"
+    url = "/resume/"
+    weight = 10
+  [[menu.main]]
+    identifier = "contact"
+    name = "Contact"
+    url = "/contact/"
+    weight = 10
+  [[menu.main]]
+    identifier = "projects"
+    name = "Projects"
+    url = "/projects/"
+    weight = 10
+  [[menu.main]]
+    identifier = "articles"
+    name = "Articles"
+    url = "/articles/"
+    weight = 10
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+series = "series"
+
+[privacy]
+
+  [privacy.vimeo]
+    disabled = false
+    simple = true
+
+  [privacy.twitter]
+    disabled = false
+    enableDNT = true
+    simple = true
+
+  [privacy.instagram]
+    disabled = false
+    simple = true
+
+  [privacy.youtube]
+    disabled = false
+    privacyEnhanced = true
+
+[services]
+
+  [services.instagram]
+    disableInlineCSS = true
+
+  [services.twitter]
+    disableInlineCSS = true
+
+[module]
+  [[module.imports]]
+    path = "github.com/nanxiaobei/hugo-paper"
