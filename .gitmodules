@@ -1,0 +1,3 @@
+[submodule "exampleSite/themes/paper"]
+	path = exampleSite/themes/paper
+	url = https://github.com/nanxiaobei/hugo-paper
