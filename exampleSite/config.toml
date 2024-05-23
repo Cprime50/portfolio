@@ -11,6 +11,7 @@ enableInlineShortcodes = true
 ignoreErrors = ["error-remote-getjson"]
 
 # ------------------------------
+
 # theme = "hugo-paper"
 title = "Charlesdpj"
 
@@ -20,14 +21,13 @@ title = "Charlesdpj"
   twitter = 'BunngeeeGum'
   github = 'Cprime50'
   linkedin = 'charles-dpj'
-  medium = 'nanxiaobei'
+  medium = 'Charlesdpj'
 
   avatar = 'https://avatars.githubusercontent.com/u/130233108?v=4'
   name = 'charlesdpj'
   bio = '''
-          Hi, my name is Charles.
-          I'm a Software Engineer with three years of experience in Backend development and lately DevOps.
-          I'm passionate about cloud technologies, Linux, open source, and Golang
+          I'm Charles a Software Engineer with two years of professional experience working for an early-stage startup.
+          I am excited about Go and enjoy working on linux, the cloud and LLM's.
   '''
 # ------------------------------
 
